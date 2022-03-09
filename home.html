@@ -29,7 +29,29 @@
   </head>
   <body>
     <!-- NAVBAR START -->
-    <header class="px-4">
+    <header>
+      <div class="topbar" id="topbar">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="contact_icon">
+                <p>
+                  <span><i class="fa-solid fa-phone"></i></span> +91 998855
+                  4422, +91 887766 3322
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 d-flex justify-content-end">
+              <div class="social_links">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <nav class="navbar navbar-expand-lg">
         <div class="container">
           <a class="navbar-brand" href="#">Logo</a>
@@ -135,6 +157,10 @@
     <!-- BANNER ENE -->
     <!-- APPLICATION PROCESS -->
     <section class="application__process">
+      <img src="./images/circle.svg" alt="" class="first" />
+      <img src="./images/circledark.svg" alt="" class="second" />
+      <img src="./images/squre.svg" alt="" class="third" />
+      <img src="./images/squredark.svg" alt="" class="fourth" />
       <div class="container">
         <div class="row">
           <div
@@ -464,6 +490,10 @@
     <!-- TESTIMONIAL -->
     <!-- GET INSTANT -->
     <section class="get_instant__loan">
+      <img src="./images/circle.svg" alt="" class="first" />
+      <img src="./images/circledark.svg" alt="" class="second" />
+      <img src="./images/squre.svg" alt="" class="third" />
+      <img src="./images/squredark.svg" alt="" class="fourth" />
       <div class="container">
         <div class="row">
           <div
@@ -698,11 +728,8 @@
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-md-3">
-            <h1>Logo</h1>
-          </div>
-          <div class="col-md-3">
-            <h3 class="brand__name">About Us</h3>
+          <div class="col-md-4 px-lg-5 py-md-5">
+            <h3>Logo</h3>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Voluptatibus architecto beatae fugiat explicabo asperiores
@@ -713,10 +740,10 @@
             </p>
           </div>
 
-          <div class="col-md-3">
+          <div class="col-md-4 px-lg-5 py-md-5">
             <h3>Quick Links</h3>
             <div class="row">
-              <div class="col-md-6">
+              <div class="col-md-3">
                 <ul class="quick__links">
                   <li><a href="/home.html">Home</a></li>
                   <li><a href="/about.html">About</a></li>
@@ -724,7 +751,7 @@
                   <li><a href="#">Carriers</a></li>
                 </ul>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-3">
                 <ul class="quick__links">
                   <li><a href="#">Policies</a></li>
                   <li><a href="#">FAQ</a></li>
@@ -733,7 +760,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-4 px-lg-5 py-md-5">
             <h3>Contact Us</h3>
             <table>
               <tr>
@@ -751,6 +778,9 @@
             </table>
           </div>
         </div>
+      </div>
+      <div class="gototop">
+        <span><i class="fa-solid fa-angle-up"></i></span>
       </div>
     </footer>
     <div class="footer__bottom">
@@ -771,5 +801,6 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script src="index.js"></script>
   </body>
 </html>
