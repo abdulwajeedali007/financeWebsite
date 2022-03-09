@@ -102,6 +102,7 @@ header .nav-item:hover::after {
   /* height: 72rem; */
   width: 100%;
   position: relative;
+  margin-top: 4rem;
 }
 .banner img {
   width: 100%;
