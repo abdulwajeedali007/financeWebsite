@@ -408,6 +408,11 @@ header .nav-item:hover::after {
   font-size: var(--font-size-normal);
   font-weight: 600;
 }
+
+.am_i__elibible .accordion .accordion-button:hover,
+.get_instant__loan .accordion .accordion-button:hover {
+  color: var(--primary-color);
+}
 .am_i__elibible .accordion .accordion-button:focus,
 .get_instant__loan .accordion .accordion-button:focus {
   box-shadow: none;
@@ -894,4 +899,60 @@ footer table tr td {
   .team .content {
     margin-bottom: 1rem;
   }
+}
+
+/* Privacy policy */
+.privarcypolicy {
+  padding: 6rem 0rem;
+}
+.privarcypolicy .content h2 {
+  font-weight: 700;
+  line-height: 2.6rem;
+  color: var(--primary-color);
+}
+.privarcypolicy .content .imageBox img {
+  width: 80%;
+}
+@media (max-width: 900px) {
+  .privarcypolicy .content .imageBox img {
+    width: 100%;
+  }
+}
+.privarcypolicy .accordion {
+  margin-top: 2rem;
+}
+.privarcypolicy .accordion .accordion-item .accordion-header button {
+  font-weight: 700;
+}
+.privarcypolicy .accordion .accordion-item .accordion-header button:hover {
+  color: var(--primary-color);
+  border-radius: 0.2rem solid var(--primary-color);
+}
+.privarcypolicy .accordion .accordion-item .accordion-header button:hover {
+  color: var(--primary-color);
+  border-radius: 0.2rem solid var(--primary-color);
+}
+.privarcypolicy
+  .accordion
+  .accordion-item
+  .accordion-header
+  .accordion-button:focus {
+  color: var(--primary-color);
+  background: #ccf9fa;
+  box-shadow: 0 0 0 0.25rem rgb(0 197 205 / 27%);
+}
+.privarcypolicy .accordion .accordion-item {
+  border-bottom: 0.1rem solid var(--primary-color);
+}
+.privarcypolicy
+  .accordion
+  .accordion-item
+  .accordion-header
+  .accordion-button:not(.collapsed) {
+  color: var(--primary-color);
+  background: #ccf9fa;
+  box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+.privarcypolicy .accordion .accordion-item p {
+  margin-bottom: 1rem !important;
 }
