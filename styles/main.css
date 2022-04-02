@@ -640,6 +640,7 @@ header .nav-item:hover::after {
   font-size: var(--font-size-normal);
   margin-top: 1rem;
 }
+
 /* Footer */
 footer {
   padding: 4rem 0rem;
@@ -965,4 +966,13 @@ footer table tr td {
 }
 .privarcypolicy .accordion .accordion-item p {
   margin-bottom: 1rem !important;
+}
+
+/* Products */
+.products tr > td,
+.products tr > th {
+  padding: 1rem;  
+}
+.products table tr.heading th {
+  background: var(--primary-color);
 }
