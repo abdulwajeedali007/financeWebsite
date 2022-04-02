@@ -340,6 +340,9 @@ header .nav-item:hover::after {
   gap: 2rem;
   margin-bottom: 4rem;
 }
+.application__process .iconText .content {
+  flex: 1;
+}
 .application__process .iconText .content .title {
   font-size: var(--font-size-normal);
   font-weight: 700;
