@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <!-- BOOSTRAP CSS -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <!-- FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/177f718e6e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/main.css" />
+    <title>About</title>
+    <style>
+        .sub-heading {
+            margin-top: 3rem;
+            padding: 15rem 0rem;
+            background-image: url('./images/career.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .sub-heading .content-sub--heading h2 {
+            font-size: 5rem;
+            font-weight: 700;
+            color: #fff;
+        }
+
+        .career {
+            padding: 8rem 0rem;
+        }
+
+        .career .content-area h2 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            color: #00c5cd;
+        }
+
+        .career .content-area h4 {
+            font-size: 2rem;
+            font-weight: 500;
+
+            margin-bottom: 1.5rem
+        }
+
+        .career .content-area .description-points {
+            list-style: none;
+            margin-bottom: 2rem;
+        }
+
+        .career .content-area .description-points li {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+            position: relative;
+            margin-left: 0.5rem;
+        }
+
+        .career .content-area .description-points li::before {
+            content: '';
+            position: absolute;
+            left: -2rem;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 1.2rem;
+            height: 1.2rem;
+            border-radius: 50%;
+            background: #00c5cd;
+            box-shadow: 0px 10px 15px -10px rgba(0, 0, 0, 1)
+        }
+
+        .career .content-area .description-points li::after {
+            content: '';
+            position: absolute;
+            left: -2.1rem;
+            top: 40%;
+            transform: translateY(-50%);
+            width: 1.2rem;
+            height: 1.2rem;
+            border-radius: 50%;
+            background: #333;
+            box-shadow: 0px 10px 15px -10px rgba(0, 0, 0, 1);
+            z-index: -1;
+
+        }
+
+        .career .info {
+            font-size: 2rem;
+            background-color: #00c5cd;
+            padding: 1rem 2rem;
+            border-radius: 0.5rem;
+        }
+
+        .career form {
+            padding: 0rem 2rem;
+        }
+
+        .career form label {
+            font-weight: 500;
+        }
+
+        .career form input:not(input[type="radio"]) {
+            border-color: #00c5cd;
+            padding: 1rem 0.8rem;
+        }
+
+        .career form input[type="radio"] {
+            border-color: #00c5cd;
+        }
+
+        .career form .btn-submit {
+            background-color: #00c5cd;
+            padding: 1rem 3rem;
+            display: inline-block;
+            margin-top: 2rem;
+            border: none;
+            color: #333;
+            letter-spacing: 0.1rem;
+            font-weight: 600;
+            border-radius: 0.3rem;
+            transition: all 0.5s ease;
+        }
+
+        .career form .btn-submit:hover {
+            transform: translateY(5px);
+        }
+    </style>
+</head>
+
+<body>
+    <section class="sub-heading">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="content-sub--heading">
+                        <h2>Career</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="career">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-8">
+                    <div class="content-area mb-5">
+                        <h2>Credit Manager - Underwriting</h2>
+                        <h4>Job Description</h4>
+
+                        <ul class="description-points">
+                            <li>Risk management and portfolio monitoring for personal loans.</li>
+                            <li>Analyse and assess various KYC documents and able to comment the credibility of the
+                                customer. </li>
+                            <li>Improving controllership by way of building strong system.</li>
+                            <li>Building and automating credit approval engine.</li>
+                            <li>Support launch of new products with policy and system build and implementation.</li>
+                            <li>Formulating risk policy and support to launch digital product.</li>
+                        </ul>
+                    </div>
+                    <div class="content-area">
+                        <h2>Job Requirements</h2>
+                        <h4>Qualification – MBA and/or Degree </h4>
+                        <p class="mb-3">Job Knowledge and experience –</p>
+
+                        <ul class="description-points">
+                            <li>Should have at least 3 years of experience in credit / risk environment.</li>
+                            <li>Should have an exposure of working with NBFC. </li>
+                            <li>Should have good understanding of consumer documents, KYC documents, etc. </li>
+                            <li>Should have good knowledge of reviewing and estimating credit worthiness against to
+                                risk. </li>
+                            <li>Should be able to drive and work with a team reporting.</li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h2 class="mb-4 fw-bolder info">PERSONAL INFO</h2>
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" aria-describedby="emailHelp "
+                                placeholder="Name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mobile" class="form-label">Mobile</label>
+                            <input type="number" class="form-control" id="mobile" placeholder="Mobile">
+                        </div>
+                        <div class="mb-3">
+                            <label for="Qualification" class="form-label">Qualification</label>
+                            <input type="text" class="form-control" id="Qualification" placeholder="Qualification">
+                        </div>
+                        <div class="mb-3">
+                            <label for="Experience" class="form-label">Years Of Experience</label>
+                            <input type="text" class="form-control" id="Experience" placeholder="Years Of Experience">
+                        </div>
+                        <div class="mb-3">
+                            <label for="Experience" class="form-label d-block">Gender</label>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                    value="option1">
+                                <label class="form-check-label" for="inlineRadio1">Male</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                                    value="option2">
+                                <label class="form-check-label" for="inlineRadio2">Female</label>
+                            </div>
+                        </div>
+
+
+                        <button type="submit" class="btn-submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</body>
+
+</html>

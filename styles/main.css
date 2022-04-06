@@ -407,37 +407,81 @@ header .nav-item:hover::after {
   }
 }
 .am_i__elibible {
-  padding: 4rem 0rem 6rem 0rem;
+  padding: 10rem 0rem;
+  background: var(--primary-color);
 }
-.am_i__elibible .text {
-  margin-bottom: 2rem;
+.am_i__elibible h2 {
+  font-size: 5rem;
   font-weight: 700;
 }
-.am_i__elibible .accordion .accordion-button,
-.get_instant__loan .accordion .accordion-button {
-  font-size: var(--font-size-normal);
-  font-weight: 600;
+.am_i__elibible h3 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--white-color);
+  margin-bottom: 2.5rem;
+}
+.am_i__elibible.two h3 {
+  color: var(--primary-color);
 }
 
-.am_i__elibible .accordion .accordion-button:hover,
-.get_instant__loan .accordion .accordion-button:hover {
+.am_i__elibible .content img {
+  margin-bottom: 1rem;
+}
+.am_i__elibible .content p {
+  font-size: 1.5rem;
+}
+.am_i__elibible .images_box {
+  box-shadow: 0px 10px 15px -20px rgba(0, 0, 0, 1);
+}
+.am_i__elibible .big_btn {
+  display: inline-block;
+  background-color: var(--white-color);
+  margin: 5rem 0rem 2rem 0rem;
+  padding: 1.5rem 5rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-decoration: none;
   color: var(--primary-color);
+  text-transform: uppercase;
+  transition: all 0.5s ease;
 }
-.am_i__elibible .accordion .accordion-button:focus,
-.get_instant__loan .accordion .accordion-button:focus {
-  box-shadow: none;
-  outline: none;
-  border-color: transparent;
+.am_i__elibible .big_btn:hover {
+  transform: translateY(5px);
 }
-.am_i__elibible .accordion .accordion-button:not(.collapsed),
-.get_instant__loan .accordion .accordion-button:not(.collapsed) {
-  color: var(--primary-color);
-  background: none;
-  box-shadow: inset 0 -1px 0 var(--primary-color);
+.am_i__elibible.two .big_btn {
+  color: var(--white-color);
+  background: var(--primary-color);
+  margin: 2rem 0rem;
 }
-.am_i__elibible .accordion .accordion-item,
-.get_instant__loan .accordion .accordion-item {
-  border-bottom: 1px solid var(--primary-color);
+.am_i__elibible.two {
+  /* background-image: url("../images/eligibility_02.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; */
+  background-color: #f2f2f2;
+}
+.am_i__elibible.two .content {
+  padding: 0rem 2rem;
+}
+.am_i__elibible .content ul {
+  list-style: none;
+}
+.am_i__elibible .content ul li {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  margin-left: 2rem;
+  position: relative;
+}
+.am_i__elibible .content ul li::before {
+  content: "";
+  position: absolute;
+  left: -2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1rem;
+  height: 1rem;
+  background-color: var(--primary-color);
 }
 .cta {
   padding: 6rem 0rem;
@@ -971,7 +1015,7 @@ footer table tr td {
 /* Products */
 .products tr > td,
 .products tr > th {
-  padding: 1rem;  
+  padding: 1rem;
 }
 .products table tr.heading th {
   background: var(--primary-color);

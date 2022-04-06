@@ -1,828 +1,720 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- GOOGLE FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- BOOSTRAP CSS -->
-    <!-- CSS only -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
-    <!-- FONTAWESOME -->
-    <script
-      src="https://kit.fontawesome.com/177f718e6e.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="./styles/main.css" />
-    <title>Home</title>
-  </head>
-  <body>
-    <!-- NAVBAR START -->
-    <header>
-      <div class="topbar" id="topbar">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="contact_icon">
-                <p>
-                  <span><i class="fa-solid fa-phone"></i></span> +91 998855
-                  4422, +91 887766 3322
-                </p>
-              </div>
-            </div>
-            <div class="col-md-6 d-flex justify-content-end">
-              <div class="social_links">
-                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-youtube"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <nav class="navbar navbar-expand-lg">
-        <div class="container">
-          <a class="navbar-brand" href="#">Salary Day</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <i class="fa-solid fa-bars"></i>
-          </button>
-          <div
-            class="collapse navbar-collapse justify-content-end"
-            id="navbarSupportedContent"
-          >
-            <ul class="navbar-nav mb-2 mt-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/home.html"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/about.html">About</a>
-              </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="#">Loans</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Carriers</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/privacypolicy.html">Policies</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">FAQ</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/contact.html">Contact Us</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <!-- NAVBAR END-->
-    <!-- BANNER START -->
-    <section class="banner">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col p-0">
-            <img src="./images/banner.jpg" alt="" />
-            <div class="banner__content">
-              <!-- <h2>Dream it. Achieve it.</h2> -->
-              <h1>
-                Reliable and User-friendly Digital Loan Process ,for All Your
-                Financial Requirements
-              </h1>
-              <p>We consider underbanked & uncredited users too.</p>
-              <br />
-              <a href="/about.html" class="d-none d-md-inline-block"
-                >About Us</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="notify">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-xl-8 col-lg-10 col-md-12">
-              <div class="notification__content">
-                <h2 class="text">
-                  Check Your <span> Eligibility in 2 Mins!</span>
-                </h2>
-                <form class="row row-cols-lg-auto g-3 align-items-center">
-                  <div class="col-12">
-                    <div class="input-group">
-                      <div class="input-group-text">+91</div>
-                      <input
-                        type="text"
-                        class="form-control"
-                        placeholder="Phone number"
-                      />
-                    </div>
-                    <div class="form-text">
-                      We will be call you for acknowledgment.
-                    </div>
-                  </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <!-- BOOSTRAP CSS -->
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <!-- FONTAWESOME -->
+  <script src="https://kit.fontawesome.com/177f718e6e.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./styles/main.css" />
+  <title>Home</title>
+</head>
 
-                  <div class="col-12">
-                    <button type="submit" class="btn__submit">Apply Now</button>
-                    <div class="form-text">Complete save & Secure</div>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- BANNER ENE -->
-    <!-- APPLICATION PROCESS -->
-    <section class="application__process">
-      <img src="./images/circle.svg" alt="" class="first" />
-      <img src="./images/circledark.svg" alt="" class="second" />
-      <img src="./images/squre.svg" alt="" class="third" />
-      <img src="./images/squredark.svg" alt="" class="fourth" />
+<body>
+  <!-- NAVBAR START -->
+  <header>
+    <div class="topbar" id="topbar">
       <div class="container">
         <div class="row">
-          <div
-            class="col-md-12 d-flex align-items-center justify-content-center"
-          >
-            <h1 class="text">ONLINE LOAN PROCESS</h1>
-          </div>
           <div class="col-md-6">
-            <div class="iconText">
-              <div class="icon">
-                <i class="fa-solid fa-user-plus fa-2x"></i>
-              </div>
-              <div class="content">
-                <h3 class="title">Easy Signup</h3>
-                <p>
-                  Signup on our app with your Gmail account. This email ID can
-                  be used for further
-                </p>
-              </div>
-            </div>
-            <div class="iconText">
-              <div class="icon">
-                <i class="fa-solid fa-calendar-check fa-2x"></i>
-              </div>
-              <div class="content">
-                <h3 class="title">Check Eligibility</h3>
-                <p>
-                  Quickly submit your KYC to check your eligibility for the loan
-                  and loan amount.
-                </p>
-              </div>
-            </div>
-            <div class="iconText">
-              <div class="icon">
-                <i class="fa-solid fa-clipboard-list fa-2x"></i>
-              </div>
-              <div class="content">
-                <h3 class="title">Upload KYC</h3>
-                <p>
-                  Easily share your KYC and other documents for verification in
-                  real-time.
-                </p>
-              </div>
-            </div>
-            <div class="iconText">
-              <div class="icon">
-                <i class="fa-solid fa-file-arrow-up fa-2x"></i>
-              </div>
-              <div class="content">
-                <h3 class="title">Select Loan Amount</h3>
-                <p>
-                  Choose your loan amount and repayment tenure and continue to
-                  apply for the loan.
-                </p>
-              </div>
-            </div>
-            <div class="iconText">
-              <div class="icon">
-                <i class="fa-solid fa-folder-tree fa-2x"></i>
-              </div>
-              <div class="content">
-                <h3 class="title">Amount Disbursed</h3>
-                <p>
-                  Loan amount gets credited directly into your salaried account.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-md-6 d-flex justify-content-center align-items-center"
-          >
-            <div class="image__box">
-              <img src="./images/person.jpg" alt="" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- APPLICATION PROCESS -->
-    <!-- AM I ELIGIBLE -->
-    <section class="am_i__elibible">
-      <div class="container">
-        <div class="row">
-          <div
-            class="col-md-12 d-flex align-items-center justify-content-center"
-          >
-            <h1 class="text">Am I Eligible?</h1>
-          </div>
-
-          <div class="col-md-12">
-            <div class="accordion">
-              <div class="accordion accordion-flush" id="accordionFlushExample">
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingOne">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapseOne"
-                      aria-expanded="false"
-                      aria-controls="flush-collapseOne"
-                    >
-                      Eligibility Criteria That You Must Know
-                    </button>
-                  </h2>
-                  <div
-                    id="flush-collapseOne"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="flush-headingOne"
-                    data-bs-parent="#accordionFlushExample"
-                  >
-                    <div class="accordion-body">
-                      <p class="mb-2">
-                        > You should be an Indian citizen in the age group of
-                        21yrs and 50 yrs.
-                      </p>
-                      <p class="mb-2">
-                        > You should be a salaried professional with a monthly
-                        net income of Rs.15,000
-                      </p>
-                      <p class="mb-2">
-                        > Your monthly salary should credit into bank account
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingTwo">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapseTwo"
-                      aria-expanded="false"
-                      aria-controls="flush-collapseTwo"
-                    >
-                      What Documention I Should Upload?
-                    </button>
-                  </h2>
-                  <div
-                    id="flush-collapseTwo"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="flush-headingTwo"
-                    data-bs-parent="#accordionFlushExample"
-                  >
-                    <div class="accordion-body">
-                      <h3>KYC and Other Documentation Required</h3>
-                      <p>
-                        <strong>> PAN card</strong>
-                      </p>
-                      <p><strong>> Latest 3 months salary slips</strong></p>
-                      <p>
-                        <strong
-                          >> Permanent Address Proof – Aadhar Card/ Voter’s
-                          Identity Card / Driving License or Utility
-                          Bills</strong
-                        >
-                      </p>
-                      <p>
-                        <strong
-                          >> For Temporary Address – Bank Statement/ Utility
-                          Bill/ Rent Receipt/ Property Tax/ Leave & License
-                          Agreement.</strong
-                        >
-                      </p>
-                      <p>
-                        <strong
-                          >> Latest bank statement reflecting salary credits
-                          from past 3 months</strong
-                        >
-                      </p>
-                      <p>
-                        <strong>> Your selfie to match with your KYC</strong>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- AM I ELIGIBLE -->
-    <section class="cta">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-10">
-            <div class="content">
-              <div>
-                <h3>Grow With Us.</h3>
-                <h2>Helping You Make Smart Financial Choices.</h2>
-              </div>
-              <div class="btn__area">
-                <a href="/contact.html" class="btn__submit">Contact Us</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- WHAT MAKES US BETTER -->
-    <section class="what_makes__us_better">
-      <div class="container">
-        <div class="row">
-          <div
-            class="col-md-12 d-flex align-items-center justify-content-center"
-          >
-            <h1 class="text">What Makes us Better?</h1>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="content">
-              <img src="./images/speed.png" alt="" />
-              <h3 class="title">Own Credit Model</h3>
+            <div class="contact_icon">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Repellendus, delectus!
+                <span><i class="fa-solid fa-phone"></i></span> +91 998855
+                4422, +91 887766 3322
               </p>
             </div>
           </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="content">
-              <img src="./images/calendar.png" alt="" />
-              <h3 class="title">Easy EMI</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Repellendus, delectus!
-              </p>
+          <div class="col-md-6 d-flex justify-content-end">
+            <div class="social_links">
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
             </div>
           </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="content">
-              <img src="./images/hassle-free.png" alt="" />
-              <h3 class="title">Hassle-free</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Repellendus, delectus!
-              </p>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="content">
-              <img src="./images/transparency.png" alt="" />
-              <h3 class="title">100% Transparent</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Repellendus, delectus!
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- WHAT MAKES US BETTER -->
-    <!-- TESTIMONIALS -->
-    <section class="testimonials">
-      <div class="container">
-        <div class="row">
-          <div
-            class="col-md-12 d-flex align-items-center justify-content-center"
-          >
-            <h1 class="text">Real Customers. Real Stories.</h1>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 d-lg-block d-none">
-            <div class="imageBox">
-              <img src="./images/testimonials.svg" alt="" />
-            </div>
-          </div>
-          <div class="col-lg-8 col-md-12">
-            <div class="testimonials__container">
-              <div
-                id="carouselExampleIndicators"
-                class="carousel slide"
-                data-bs-ride="carousel"
-              >
-                <div class="carousel-indicators">
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide-to="0"
-                    class="active"
-                    aria-current="true"
-                    aria-label="Slide 1"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide-to="1"
-                    aria-label="Slide 2"
-                  ></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <div class="content">
-                      <div class="profile__details">
-                        <div class="profile">
-                          <img src="./images/man (1).png" alt="" />
-                          <div class="details">
-                            <h3>User Name</h3>
-                            <h4>Product Engineer</h4>
-                          </div>
-                        </div>
-                        <div class="content">
-                          <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Quo repellat unde nostrum laborum sapiente
-                            molestiae consequatur nobis ducimus nemo dolorum,
-                            minus, placeat fugit animi natus.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="content">
-                      <div class="profile__details">
-                        <div class="profile">
-                          <img src="./images/man (1).png" alt="" />
-                          <div class="details">
-                            <h3>User Name</h3>
-                            <h4>Product Engineer</h4>
-                          </div>
-                        </div>
-                        <div class="content">
-                          <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Quo repellat unde nostrum laborum sapiente
-                            molestiae consequatur nobis ducimus nemo dolorum,
-                            minus, placeat fugit animi natus.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- TESTIMONIALS -->
-    <!-- TESTIMONIAL -->
-
-    <!-- TESTIMONIAL -->
-    <!-- GET INSTANT -->
-    <section class="get_instant__loan">
-      <img src="./images/circle.svg" alt="" class="first" />
-      <img src="./images/circledark.svg" alt="" class="second" />
-      <img src="./images/squre.svg" alt="" class="third" />
-      <img src="./images/squredark.svg" alt="" class="fourth" />
-      <div class="container">
-        <div class="row">
-          <div
-            class="col-md-12 d-flex align-items-center justify-content-center"
-          >
-            <h1 class="text">
-              Get an Instant Loan in 24 Hours – Hassle-Free Process!
-            </h1>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-            <p class="para">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae ab est quia dignissimos magni, amet iste veritatis.
-              Recusandae ratione facere optio a nesciunt, doloribus adipisci!
-              Exercitationem inventore obcaecati hic excepturi placeat expedita
-              commodi dolorem dolores cupiditate similique, dignissimos illum
-              quod ipsam pariatur, dicta laboriosam quasi sint quos illo. Magnam
-              vitae iusto, at quod earum ducimus repellendus, ipsam maiores
-              soluta, expedita quidem minus aperiam impedit omnis ex voluptate
-              perspiciatis eos sit ab autem asperiores. Alias mollitia eligendi
-              laudantium, aperiam fuga accusamus suscipit illum, rerum ipsam est
-              corporis autem quas sint eveniet inventore consectetur provident
-              quibusdam. Nobis alias soluta neque, eos saepe nisi asperiores,
-              minus explicabo esse dolorem non ratione iure et cumque? Placeat
-              adipisci quis dolores quidem est! Iste quisquam, ea dolores
-              nostrum cupiditate labore! Ea ullam quaerat maxime consequatur
-              nulla mollitia aliquam nobis ut, deserunt magni, corrupti
-              perspiciatis. Placeat commodi cum optio eos qui corporis sit est
-              non obcaecati tempore.
-            </p>
-            <h2 class="heading">
-              Features and Benefits of Getting an Instant Loan
-            </h2>
-            <h4 class="small_heading">
-              Here are the top features and benefits of an Instant, Paperless
-              loan from Money View:
-            </h4>
-            <ul class="lists">
-              <li>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
-                similique.
-              </li>
-              <li>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptas, assumenda iure?
-              </li>
-              <li>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Blanditiis aperiam mollitia consectetur.
-              </li>
-              <li>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-                commodi consequuntur quas qui minima.
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="row mt-4">
-          <div class="col-md-12">
-            <div class="accordion">
-              <div
-                class="accordion accordion-flush"
-                id="accordionFlushExample1"
-              >
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingOne1">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapseOne1"
-                      aria-expanded="false"
-                      aria-controls="flush-collapseOne1"
-                    >
-                      Interest Rates & Charges For Our Instant, Paperless Loan
-                    </button>
-                  </h2>
-                  <div
-                    id="flush-collapseOne1"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="flush-headingOne1"
-                    data-bs-parent="#accordionFlushExample1"
-                  >
-                    <div class="accordion-body">
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Earum sed quae quisquam hic assumenda placeat nisi
-                        reiciendis perferendis dolor. Nemo sequi natus adipisci,
-                        excepturi odio doloribus optio beatae veritatis qui
-                        dolorem aspernatur porro tenetur tempore aliquam velit
-                        commodi eum perferendis eaque dicta quasi. Minima
-                        accusantium recusandae debitis aperiam obcaecati
-                        repellendus inventore iusto enim corporis, saepe ratione
-                        magnam doloremque a hic quasi optio earum! Mollitia
-                        ipsum voluptatibus quo minima perspiciatis sint ullam
-                        pariatur error eveniet, tempora sed? Amet ipsam, non
-                        maiores repellat, reiciendis rerum consequatur
-                        perferendis quas nesciunt at ex ullam porro est facilis
-                        adipisci quaerat qui nisi ad, inventore voluptatum.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingOne2">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapseOne2"
-                      aria-expanded="false"
-                      aria-controls="flush-collapseOne2"
-                    >
-                      Top 10 Reasons To Apply For An Instant Loan From Money
-                      View
-                    </button>
-                  </h2>
-                  <div
-                    id="flush-collapseOne2"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="flush-headingOne2"
-                    data-bs-parent="#accordionFlushExample1"
-                  >
-                    <div class="accordion-body">
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Earum sed quae quisquam hic assumenda placeat nisi
-                        reiciendis perferendis dolor. Nemo sequi natus adipisci,
-                        excepturi odio doloribus optio beatae veritatis qui
-                        dolorem aspernatur porro tenetur tempore aliquam velit
-                        commodi eum perferendis eaque dicta quasi. Minima
-                        accusantium recusandae debitis aperiam obcaecati
-                        repellendus inventore iusto enim corporis, saepe ratione
-                        magnam doloremque a hic quasi optio earum! Mollitia
-                        ipsum voluptatibus quo minima perspiciatis sint ullam
-                        pariatur error eveniet, tempora sed? Amet ipsam, non
-                        maiores repellat, reiciendis rerum consequatur
-                        perferendis quas nesciunt at ex ullam porro est facilis
-                        adipisci quaerat qui nisi ad, inventore voluptatum.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingOne3">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapseOne3"
-                      aria-expanded="false"
-                      aria-controls="flush-collapseOne3"
-                    >
-                      How To Track Your Instant Loan Application
-                    </button>
-                  </h2>
-                  <div
-                    id="flush-collapseOne3"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="flush-headingOne3"
-                    data-bs-parent="#accordionFlushExample1"
-                  >
-                    <div class="accordion-body">
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Earum sed quae quisquam hic assumenda placeat nisi
-                        reiciendis perferendis dolor. Nemo sequi natus adipisci,
-                        excepturi odio doloribus optio beatae veritatis qui
-                        dolorem aspernatur porro tenetur tempore aliquam velit
-                        commodi eum perferendis eaque dicta quasi. Minima
-                        accusantium recusandae debitis aperiam obcaecati
-                        repellendus inventore iusto enim corporis, saepe ratione
-                        magnam doloremque a hic quasi optio earum! Mollitia
-                        ipsum voluptatibus quo minima perspiciatis sint ullam
-                        pariatur error eveniet, tempora sed? Amet ipsam, non
-                        maiores repellat, reiciendis rerum consequatur
-                        perferendis quas nesciunt at ex ullam porro est facilis
-                        adipisci quaerat qui nisi ad, inventore voluptatum.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingOne4">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapseOne4"
-                      aria-expanded="false"
-                      aria-controls="flush-collapseOne4"
-                    >
-                      Disclaimer:
-                    </button>
-                  </h2>
-                  <div
-                    id="flush-collapseOne4"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="flush-headingOne4"
-                    data-bs-parent="#accordionFlushExample1"
-                  >
-                    <div class="accordion-body">
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Earum sed quae quisquam hic assumenda placeat nisi
-                        reiciendis perferendis dolor. Nemo sequi natus adipisci,
-                        excepturi odio doloribus optio beatae veritatis qui
-                        dolorem aspernatur porro tenetur tempore aliquam velit
-                        commodi eum perferendis eaque dicta quasi. Minima
-                        accusantium recusandae debitis aperiam obcaecati
-                        repellendus inventore iusto enim corporis, saepe ratione
-                        magnam doloremque a hic quasi optio earum! Mollitia
-                        ipsum voluptatibus quo minima perspiciatis sint ullam
-                        pariatur error eveniet, tempora sed? Amet ipsam, non
-                        maiores repellat, reiciendis rerum consequatur
-                        perferendis quas nesciunt at ex ullam porro est facilis
-                        adipisci quaerat qui nisi ad, inventore voluptatum.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- GET INSTANT -->
-    <!-- FOOTER START -->
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 px-lg-5 py-md-5">
-            <h3>Logo</h3>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Voluptatibus architecto beatae fugiat explicabo asperiores
-              repudiandae inventore similique minima eveniet adipisci ut
-              officiis debitis impedit commodi vero voluptatem earum recusandae
-              eius, velit error harum sunt omnis! Suscipit at reprehenderit ab
-              ipsam.
-            </p>
-          </div>
-
-          <div class="col-md-4 px-lg-5 py-md-5">
-            <h3>Quick Links</h3>
-            <div class="row">
-              <div class="col-md-3">
-                <ul class="quick__links">
-                  <li><a href="/home.html">Home</a></li>
-                  <li><a href="/about.html">About</a></li>
-                  <li><a href="#">Loans</a></li>
-                  <li><a href="#">Carriers</a></li>
-                </ul>
-              </div>
-              <div class="col-md-3">
-                <ul class="quick__links">
-                  <li><a href="#">Policies</a></li>
-                  <li><a href="#">FAQ</a></li>
-                  <li><a href="/contact.html">Contact Us</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 px-lg-5 py-md-5">
-            <h3>Contact Us</h3>
-            <table>
-              <tr>
-                <td><i class="fa-solid fa-house"></i></td>
-                <td>Lorem ipsum dolor sit amet consectetur.</td>
-              </tr>
-              <tr>
-                <td><i class="fa-solid fa-envelope"></i></td>
-                <td>Nothing@gmail.com</td>
-              </tr>
-              <tr>
-                <td><i class="fa-solid fa-phone"></i></td>
-                <td>+91 998866 44 22</td>
-              </tr>
-            </table>
-          </div>
-        </div>
-      </div>
-      <div class="gototop">
-        <span><i class="fa-solid fa-angle-up"></i></span>
-      </div>
-    </footer>
-    <div class="footer__bottom">
-      <div class="container">
-        <div class="copyright">© 2022 Company name Pvt.Ltd</div>
-        <div class="social_links">
-          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-          <a href="#"><i class="fa-brands fa-twitter"></i></a>
-          <a href="#"><i class="fa-brands fa-instagram"></i></a>
-          <a href="#"><i class="fa-brands fa-youtube"></i></a>
         </div>
       </div>
     </div>
-    <!-- FOOTER END -->
-    <!-- JavaScript Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
-    <script src="index.js"></script>
-  </body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">Salary Day</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mt-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Loans</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Carriers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/privacypolicy.html">Policies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- NAVBAR END-->
+  <!-- BANNER START -->
+  <section class="banner">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col p-0">
+          <img src="./images/banner.jpg" alt="" />
+          <div class="banner__content">
+            <!-- <h2>Dream it. Achieve it.</h2> -->
+            <h1>
+              Reliable and User-friendly Digital Loan Process ,for All Your
+              Financial Requirements
+            </h1>
+            <p>We consider underbanked & uncredited users too.</p>
+            <br />
+            <a href="/about.html" class="d-none d-md-inline-block">About Us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="notify">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-8 col-lg-10 col-md-12">
+            <div class="notification__content">
+              <h2 class="text">
+                Check Your <span> Eligibility in 2 Mins!</span>
+              </h2>
+              <form class="row row-cols-lg-auto g-3 align-items-center">
+                <div class="col-12">
+                  <div class="input-group">
+                    <div class="input-group-text">+91</div>
+                    <input type="text" class="form-control" placeholder="Phone number" />
+                  </div>
+                  <div class="form-text">
+                    We will be call you for acknowledgment.
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <button type="submit" class="btn__submit">Apply Now</button>
+                  <div class="form-text">Complete save & Secure</div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- BANNER ENE -->
+  <!-- APPLICATION PROCESS -->
+  <section class="application__process">
+    <img src="./images/circle.svg" alt="" class="first" />
+    <img src="./images/circledark.svg" alt="" class="second" />
+    <img src="./images/squre.svg" alt="" class="third" />
+    <img src="./images/squredark.svg" alt="" class="fourth" />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 d-flex align-items-center justify-content-center">
+          <h1 class="text">ONLINE LOAN PROCESS</h1>
+        </div>
+        <div class="col-md-6">
+          <div class="iconText">
+            <div class="icon">
+              <i class="fa-solid fa-user-plus fa-2x"></i>
+            </div>
+            <div class="content">
+              <h3 class="title">Easy Signup</h3>
+              <p>
+                Signup on our app with your Gmail account. This email ID can
+                be used for further
+              </p>
+            </div>
+          </div>
+          <div class="iconText">
+            <div class="icon">
+              <i class="fa-solid fa-calendar-check fa-2x"></i>
+            </div>
+            <div class="content">
+              <h3 class="title">Check Eligibility</h3>
+              <p>
+                Quickly submit your KYC to check your eligibility for the loan
+                and loan amount.
+              </p>
+            </div>
+          </div>
+          <div class="iconText">
+            <div class="icon">
+              <i class="fa-solid fa-clipboard-list fa-2x"></i>
+            </div>
+            <div class="content">
+              <h3 class="title">Upload KYC</h3>
+              <p>
+                Easily share your KYC and other documents for verification in
+                real-time.
+              </p>
+            </div>
+          </div>
+          <div class="iconText">
+            <div class="icon">
+              <i class="fa-solid fa-file-arrow-up fa-2x"></i>
+            </div>
+            <div class="content">
+              <h3 class="title">Select Loan Amount</h3>
+              <p>
+                Choose your loan amount and repayment tenure and continue to
+                apply for the loan.
+              </p>
+            </div>
+          </div>
+          <div class="iconText">
+            <div class="icon">
+              <i class="fa-solid fa-folder-tree fa-2x"></i>
+            </div>
+            <div class="content">
+              <h3 class="title">Amount Disbursed</h3>
+              <p>
+                Loan amount gets credited directly into your salaried account.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 d-flex justify-content-center align-items-center">
+          <div class="image__box">
+            <img src="./images/person.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- APPLICATION PROCESS -->
+  <!-- AM I ELIGIBLE -->
+  <section class="am_i__elibible">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7">
+          <div class="content">
+            <h2>Am I Eligible?</h2>
+            <h3>
+              Eligibility Criteria That You Must Know</h3>
+
+            <div class="row mt-5">
+
+              <div class="col-md-4">
+                <img src="./images/public.png" alt="">
+                <p>
+                  You should be an Indian citizen in the age group of 21yrs and 50 yrs.
+                </p>
+              </div>
+              <div class="col-md-4">
+                <img src="./images/cash.png" alt="">
+                <p>
+                  You should be a salaried professional with a monthly net income of Rs.15,000
+                </p>
+              </div>
+              <div class="col-md-4">
+                <img src="./images/bank.png" alt="">
+                <p>
+                  Your monthly salary should credit into bank account
+                </p>
+              </div>
+
+            </div>
+            <a href="#" class="big_btn">Download Our App</a>
+          </div>
+
+        </div>
+        <div class="col-md-5">
+          <div class="images_box">
+            <img src="./images/eligibility_01.jpg" alt="" class="w-100">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="am_i__elibible two">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="images_box">
+            <img src="./images/eligibility_03.jpg" alt="" class="w-100">
+          </div>
+        </div>
+        <div class="col-md-7">
+          <div class="content">
+            <h2>What Documention I Should Upload?</h2>
+            <h3>
+              KYC and Other Documentation Required</h3>
+
+            <div class="row mt-5">
+
+              <div class="col">
+                <ul>
+                  <li>
+                    PAN card</li>
+
+                  <li>Latest 3 months salary slips</li>
+
+                  <li>Permanent Address Proof – Aadhar Card/ Voter’s Identity Card / Driving License or Utility
+                    Bills</li>
+
+                  <li> For Temporary Address – Bank Statement/ Utility Bill/ Rent Receipt/ Property Tax/ Leave &
+                    License
+                    Agreement.</li>
+
+                  <li>Latest bank statement reflecting salary credits from past 3 months</li>
+
+                  <li> Your selfie to match with your KYC
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <a href="#" class="big_btn">To Know more contact us</a>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- AM I ELIGIBLE -->
+  <section class="cta">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-10">
+          <div class="content">
+            <div>
+              <h3>Grow With Us.</h3>
+              <h2>Helping You Make Smart Financial Choices.</h2>
+            </div>
+            <div class="btn__area">
+              <a href="/contact.html" class="btn__submit">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- WHAT MAKES US BETTER -->
+  <section class="what_makes__us_better">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 d-flex align-items-center justify-content-center">
+          <h1 class="text">What Makes us Better?</h1>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="content">
+            <img src="./images/speed.png" alt="" />
+            <h3 class="title">Own Credit Model</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus, delectus!
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="content">
+            <img src="./images/calendar.png" alt="" />
+            <h3 class="title">Easy EMI</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus, delectus!
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="content">
+            <img src="./images/hassle-free.png" alt="" />
+            <h3 class="title">Hassle-free</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus, delectus!
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="content">
+            <img src="./images/transparency.png" alt="" />
+            <h3 class="title">100% Transparent</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus, delectus!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- WHAT MAKES US BETTER -->
+  <!-- TESTIMONIALS -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 d-flex align-items-center justify-content-center">
+          <h1 class="text">Real Customers. Real Stories.</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 d-lg-block d-none">
+          <div class="imageBox">
+            <img src="./images/testimonials.svg" alt="" />
+          </div>
+        </div>
+        <div class="col-lg-8 col-md-12">
+          <div class="testimonials__container">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="content">
+                    <div class="profile__details">
+                      <div class="profile">
+                        <img src="./images/man (1).png" alt="" />
+                        <div class="details">
+                          <h3>User Name</h3>
+                          <h4>Product Engineer</h4>
+                        </div>
+                      </div>
+                      <div class="content">
+                        <p>
+                          Lorem ipsum dolor, sit amet consectetur adipisicing
+                          elit. Quo repellat unde nostrum laborum sapiente
+                          molestiae consequatur nobis ducimus nemo dolorum,
+                          minus, placeat fugit animi natus.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="content">
+                    <div class="profile__details">
+                      <div class="profile">
+                        <img src="./images/man (1).png" alt="" />
+                        <div class="details">
+                          <h3>User Name</h3>
+                          <h4>Product Engineer</h4>
+                        </div>
+                      </div>
+                      <div class="content">
+                        <p>
+                          Lorem ipsum dolor, sit amet consectetur adipisicing
+                          elit. Quo repellat unde nostrum laborum sapiente
+                          molestiae consequatur nobis ducimus nemo dolorum,
+                          minus, placeat fugit animi natus.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- TESTIMONIALS -->
+  <!-- TESTIMONIAL -->
+
+  <!-- TESTIMONIAL -->
+  <!-- GET INSTANT -->
+  <section class="get_instant__loan">
+    <img src="./images/circle.svg" alt="" class="first" />
+    <img src="./images/circledark.svg" alt="" class="second" />
+    <img src="./images/squre.svg" alt="" class="third" />
+    <img src="./images/squredark.svg" alt="" class="fourth" />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 d-flex align-items-center justify-content-center">
+          <h1 class="text">
+            Get an Instant Loan in 24 Hours – Hassle-Free Process!
+          </h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p class="para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Recusandae ab est quia dignissimos magni, amet iste veritatis.
+            Recusandae ratione facere optio a nesciunt, doloribus adipisci!
+            Exercitationem inventore obcaecati hic excepturi placeat expedita
+            commodi dolorem dolores cupiditate similique, dignissimos illum
+            quod ipsam pariatur, dicta laboriosam quasi sint quos illo. Magnam
+            vitae iusto, at quod earum ducimus repellendus, ipsam maiores
+            soluta, expedita quidem minus aperiam impedit omnis ex voluptate
+            perspiciatis eos sit ab autem asperiores. Alias mollitia eligendi
+            laudantium, aperiam fuga accusamus suscipit illum, rerum ipsam est
+            corporis autem quas sint eveniet inventore consectetur provident
+            quibusdam. Nobis alias soluta neque, eos saepe nisi asperiores,
+            minus explicabo esse dolorem non ratione iure et cumque? Placeat
+            adipisci quis dolores quidem est! Iste quisquam, ea dolores
+            nostrum cupiditate labore! Ea ullam quaerat maxime consequatur
+            nulla mollitia aliquam nobis ut, deserunt magni, corrupti
+            perspiciatis. Placeat commodi cum optio eos qui corporis sit est
+            non obcaecati tempore.
+          </p>
+          <h2 class="heading">
+            Features and Benefits of Getting an Instant Loan
+          </h2>
+          <h4 class="small_heading">
+            Here are the top features and benefits of an Instant, Paperless
+            loan from Money View:
+          </h4>
+          <ul class="lists">
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
+              similique.
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptas, assumenda iure?
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Blanditiis aperiam mollitia consectetur.
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              commodi consequuntur quas qui minima.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-12">
+          <div class="accordion">
+            <div class="accordion accordion-flush" id="accordionFlushExample1">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne1">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne1" aria-expanded="false" aria-controls="flush-collapseOne1">
+                    Interest Rates & Charges For Our Instant, Paperless Loan
+                  </button>
+                </h2>
+                <div id="flush-collapseOne1" class="accordion-collapse collapse" aria-labelledby="flush-headingOne1"
+                  data-bs-parent="#accordionFlushExample1">
+                  <div class="accordion-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Earum sed quae quisquam hic assumenda placeat nisi
+                      reiciendis perferendis dolor. Nemo sequi natus adipisci,
+                      excepturi odio doloribus optio beatae veritatis qui
+                      dolorem aspernatur porro tenetur tempore aliquam velit
+                      commodi eum perferendis eaque dicta quasi. Minima
+                      accusantium recusandae debitis aperiam obcaecati
+                      repellendus inventore iusto enim corporis, saepe ratione
+                      magnam doloremque a hic quasi optio earum! Mollitia
+                      ipsum voluptatibus quo minima perspiciatis sint ullam
+                      pariatur error eveniet, tempora sed? Amet ipsam, non
+                      maiores repellat, reiciendis rerum consequatur
+                      perferendis quas nesciunt at ex ullam porro est facilis
+                      adipisci quaerat qui nisi ad, inventore voluptatum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne2">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne2" aria-expanded="false" aria-controls="flush-collapseOne2">
+                    Top 10 Reasons To Apply For An Instant Loan From Money
+                    View
+                  </button>
+                </h2>
+                <div id="flush-collapseOne2" class="accordion-collapse collapse" aria-labelledby="flush-headingOne2"
+                  data-bs-parent="#accordionFlushExample1">
+                  <div class="accordion-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Earum sed quae quisquam hic assumenda placeat nisi
+                      reiciendis perferendis dolor. Nemo sequi natus adipisci,
+                      excepturi odio doloribus optio beatae veritatis qui
+                      dolorem aspernatur porro tenetur tempore aliquam velit
+                      commodi eum perferendis eaque dicta quasi. Minima
+                      accusantium recusandae debitis aperiam obcaecati
+                      repellendus inventore iusto enim corporis, saepe ratione
+                      magnam doloremque a hic quasi optio earum! Mollitia
+                      ipsum voluptatibus quo minima perspiciatis sint ullam
+                      pariatur error eveniet, tempora sed? Amet ipsam, non
+                      maiores repellat, reiciendis rerum consequatur
+                      perferendis quas nesciunt at ex ullam porro est facilis
+                      adipisci quaerat qui nisi ad, inventore voluptatum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne3">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne3" aria-expanded="false" aria-controls="flush-collapseOne3">
+                    How To Track Your Instant Loan Application
+                  </button>
+                </h2>
+                <div id="flush-collapseOne3" class="accordion-collapse collapse" aria-labelledby="flush-headingOne3"
+                  data-bs-parent="#accordionFlushExample1">
+                  <div class="accordion-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Earum sed quae quisquam hic assumenda placeat nisi
+                      reiciendis perferendis dolor. Nemo sequi natus adipisci,
+                      excepturi odio doloribus optio beatae veritatis qui
+                      dolorem aspernatur porro tenetur tempore aliquam velit
+                      commodi eum perferendis eaque dicta quasi. Minima
+                      accusantium recusandae debitis aperiam obcaecati
+                      repellendus inventore iusto enim corporis, saepe ratione
+                      magnam doloremque a hic quasi optio earum! Mollitia
+                      ipsum voluptatibus quo minima perspiciatis sint ullam
+                      pariatur error eveniet, tempora sed? Amet ipsam, non
+                      maiores repellat, reiciendis rerum consequatur
+                      perferendis quas nesciunt at ex ullam porro est facilis
+                      adipisci quaerat qui nisi ad, inventore voluptatum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne4">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne4" aria-expanded="false" aria-controls="flush-collapseOne4">
+                    Disclaimer:
+                  </button>
+                </h2>
+                <div id="flush-collapseOne4" class="accordion-collapse collapse" aria-labelledby="flush-headingOne4"
+                  data-bs-parent="#accordionFlushExample1">
+                  <div class="accordion-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Earum sed quae quisquam hic assumenda placeat nisi
+                      reiciendis perferendis dolor. Nemo sequi natus adipisci,
+                      excepturi odio doloribus optio beatae veritatis qui
+                      dolorem aspernatur porro tenetur tempore aliquam velit
+                      commodi eum perferendis eaque dicta quasi. Minima
+                      accusantium recusandae debitis aperiam obcaecati
+                      repellendus inventore iusto enim corporis, saepe ratione
+                      magnam doloremque a hic quasi optio earum! Mollitia
+                      ipsum voluptatibus quo minima perspiciatis sint ullam
+                      pariatur error eveniet, tempora sed? Amet ipsam, non
+                      maiores repellat, reiciendis rerum consequatur
+                      perferendis quas nesciunt at ex ullam porro est facilis
+                      adipisci quaerat qui nisi ad, inventore voluptatum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- GET INSTANT -->
+  <!-- FOOTER START -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 px-lg-5 py-md-5">
+          <h3>Logo</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Voluptatibus architecto beatae fugiat explicabo asperiores
+            repudiandae inventore similique minima eveniet adipisci ut
+            officiis debitis impedit commodi vero voluptatem earum recusandae
+            eius, velit error harum sunt omnis! Suscipit at reprehenderit ab
+            ipsam.
+          </p>
+        </div>
+
+        <div class="col-md-4 px-lg-5 py-md-5">
+          <h3>Quick Links</h3>
+          <div class="row">
+            <div class="col-md-3">
+              <ul class="quick__links">
+                <li><a href="/home.html">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="#">Loans</a></li>
+                <li><a href="#">Carriers</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <ul class="quick__links">
+                <li><a href="#">Policies</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="/contact.html">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 px-lg-5 py-md-5">
+          <h3>Contact Us</h3>
+          <table>
+            <tr>
+              <td><i class="fa-solid fa-house"></i></td>
+              <td>Lorem ipsum dolor sit amet consectetur.</td>
+            </tr>
+            <tr>
+              <td><i class="fa-solid fa-envelope"></i></td>
+              <td>Nothing@gmail.com</td>
+            </tr>
+            <tr>
+              <td><i class="fa-solid fa-phone"></i></td>
+              <td>+91 998866 44 22</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="gototop">
+      <span><i class="fa-solid fa-angle-up"></i></span>
+    </div>
+  </footer>
+  <div class="footer__bottom">
+    <div class="container">
+      <div class="copyright">© 2022 Company name Pvt.Ltd</div>
+      <div class="social_links">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+  <!-- FOOTER END -->
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+
 </html>
